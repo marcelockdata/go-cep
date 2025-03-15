@@ -76,3 +76,18 @@
    ```
 
 
+
+
+### Execução no Cloud-Run
+1. Abra a URL abaixo:
+
+   ```bash
+   # invalid zip code
+   https://golang-cep-311127317007.us-south1.run.app/111
+
+   # zip code not found
+   https://golang-cep-311127317007.us-south1.run.app/01153001
+
+   # success
+   https://golang-cep-311127317007.us-south1.run.app/13411060
+   ```
